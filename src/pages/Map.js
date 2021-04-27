@@ -3,19 +3,21 @@ import React, { useEffect, useState, useRef } from 'react'
 import { FlatList, SafeAreaView, Text, View } from 'react-native'
 import MapView, { Marker } from 'react-native-maps';
 
-import citylist from './citylist.json'
-import cliniclist from './main.json'
-import { City, RestaurantDetail, SearchBar } from './components'
+import citylist from '../citylist.json'
+import cliniclist from '../main.json'
+import { City, RestaurantDetail, SearchBar } from '../components'
 
 
 
 let originalList = [...citylist]
 let originalclinicList = [...cliniclist]
 
-const App = () => {
+const Map = () => {
     const [mycities, setMycities] = useState([])
     const [myclinics, setMyclinics] = useState([])
     const mapRef = useRef(null)
+    const [isModalVisible, setModalVisible] = useState(false);
+    const [mymarker, setMymarker] = useState([])
     // const fetchData = () => {
     //     axios.post(
     //         'https://worldwide-restaurants.p.rapidapi.com/typeahead',
@@ -70,6 +72,11 @@ const App = () => {
         })
     }
 
+    const toggleModal = (m) => {
+        setModalVisible(!isModalVisible);
+        setMymarker(m)
+    };
+
     return (
         <SafeAreaView style={{ flex: 1 }}>
             <View style={{ flex: 1 }}>
@@ -86,6 +93,7 @@ const App = () => {
                     {myclinics.map((marker, index) => (
                         <Marker
                             key={index}
+                            onPress={() => toggleModal(marker)}
                             coordinate={{
                                 latitude: marker.lat,
                                 longitude: marker.long,
@@ -105,6 +113,7 @@ const App = () => {
                         renderItem={({ item }) => <City data={item} onSelect={() => selectCity(item)} />}
                         keyExtractor={(_, index) => index.toString()}
                     />
+                    <RestaurantDetail isVisible={isModalVisible} data={mymarker} onClose={toggleModal} onSwipeClose={() => setModalVisible(false)}/>
 
                 </View>
             </View>
@@ -112,4 +121,4 @@ const App = () => {
     )
 }
 
-export default App
+export {Map}

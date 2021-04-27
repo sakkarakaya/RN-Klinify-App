@@ -18,14 +18,23 @@ export const city = StyleSheet.create({
 
 export const restaurant = StyleSheet.create({
     container: {
+        backgroundColor: 'white',
         margin: 6,
         padding: 7,
         borderRadius: 8,
-        borderWidth: 0.5,
-        borderColor: '#bdbdbd'
     },
     text: {
         fontWeight: 'bold'
+    },
+    line: {
+        borderWidth: 1,
+        width: Dimensions.get("window").width / 4,
+        alignSelf: 'center',
+        marginBottom: 5
+    },
+    image: {
+        height: Dimensions.get("window").height * 0.25,
+        margin: 5
     }
 })
 
