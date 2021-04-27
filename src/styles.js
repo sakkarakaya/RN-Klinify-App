@@ -1,19 +1,22 @@
-import {StyleSheet} from 'react-native'
+import {StyleSheet, Dimensions} from 'react-native'
 
-export const langItems = StyleSheet.create({
+export const city = StyleSheet.create({
     container: {
-        margin: 10,
-        padding: 10,
-        borderRadius: 10
+        margin: 9,
+        padding: 7,
+        borderRadius: 10,
+        backgroundColor: 'white',
+        flexDirection: 'row',
+        alignItems: 'center'
     },
     text: {
-        fontSize: 18,
-        color: 'white',
-        fontWeight: 'bold'
+        fontSize: 15,
+        marginLeft: 5,
+        
     }
 })
 
-export const jobItems = StyleSheet.create({
+export const restaurant = StyleSheet.create({
     container: {
         margin: 6,
         padding: 7,
@@ -26,16 +29,21 @@ export const jobItems = StyleSheet.create({
     }
 })
 
-export const jobs = StyleSheet.create({
+export const searchbar = StyleSheet.create({
     container: {
         backgroundColor: 'white',
         margin: 6,
         padding: 7,
-        borderRadius: 8,
+        borderRadius: 20,
+        width: Dimensions.get('window').width * 0.8,
+        marginLeft: '10%',
+        flexDirection: 'row',
+        alignItems: 'center'
 
     },
     text: {
-        fontWeight: 'bold',
-        fontSize: 18
+        
+        fontSize: 15,
+        marginLeft: 7
     }
 })

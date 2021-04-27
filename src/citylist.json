@@ -1,0 +1,52 @@
+[
+    {
+    "id": 0,
+      "value": "Alfeld",
+      "label": "Alfeld"
+    },
+    {
+        "id": 1,
+        "value": "Braunschweig",
+        "label": "Braunschweig"
+      },
+      {
+        "id": 2,
+        "value": "Burgwedel",
+        "label": "Burgwedel"
+      },
+      {
+        "id": 3,
+        "value": "Coppenbrügge",
+        "label": "Coppenbrügge"
+      },
+      {
+        "id": 4,
+        "value": "Göttingen",
+        "label": "Göttingen"
+      },
+      {
+        "id": 5,
+        "value": "Hameln",
+        "label": "Hameln"
+      },
+      {
+        "id": 6,
+        "value": "Hannover",
+        "label": "Hannover"
+      },
+      {
+        "id": 7,
+        "value": "Hildesheim",
+        "label": "Hildesheim"
+      },
+      {
+        "id": 8,
+        "value": "Lehrte",
+        "label": "Lehrte"
+      },
+      {
+        "id": 9,
+        "value": "Rosdorf",
+        "label": "Rosdorf"
+      }
+  ]

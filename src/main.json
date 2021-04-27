@@ -1,0 +1,76 @@
+[
+    {
+    "id":0,
+    "Name":"AMEOS Hospital Alfeld",
+    "Adresse":"Landrat-Beushausen-Straße 26, 31061 Alfeld (Leine)",
+    "stadt":"Alfeld",
+    "Google":2.4,
+    "Klinikum":1.7,
+    "Klinify":1,
+    "lat": 51.99436600316013,
+    "long": 9.832495799787058,
+    "image": "https://www.deutsches-krankenhaus-verzeichnis.de/app/file/image/show/d204dee453d62f16_cf0c2632-24ac-4b3f-8448-c29f6e68906a.png"
+    },
+   
+    {"id":1,
+    "lat": 51.52425348460603, 
+    "long": 9.916599913263775,"Name":"Asklepios Hospital Göttingen","Adresse":"Rosdorfer Weg 70, 37081 Göttingen","stadt":"Göttingen","Google":2.1,"Klinikum":1.4,"Klinify":1,"image":"https://upload.wikimedia.org/wikipedia/commons/4/49/Asklepios_Fachklinikum_G%C3%B6ttingen_%281%29.JPG"},
+    
+    {"id":2,
+    "lat": 51.49897788094887, 
+    "long": 9.871665155592236,"Name":"Asklepios Hospital Tiefenbrunn","Adresse":"Tiefenbrunn, 37124 Rosdorf","stadt":"Rosdorf","Google":2.6,"Klinikum":2.6,"Klinify":2, "image":"https://www.deutsches-krankenhaus-verzeichnis.de/app/file/image/show/ea64d9b452af986d_03e784fd-db0c-4ddf-b854-ff6cf6fbf326.png"},
+    
+    {"id":3,
+    "lat": 52.25570366309294, 
+    "long": 10.527715615138076,"Name":"Augenklinik Dr. Hoffmann","Adresse":"Wolfenbütteler Str. 82, 38102 Braunschweig","stadt":"Braunschweig","Google":4.0,"Klinikum":3.6,"Klinify":4, "image":"https://www.deutsches-krankenhaus-verzeichnis.de/app/file/image/show/039d2d2d7948ef77_d08ce7f2-cdce-449d-a8fb-f11ed90eb888.png"},
+    
+    {"id":4,
+    "lat": 52.36981083927656, 
+    "long": 9.809558526788976,"Name":"DIAKOVERE Annastift","Adresse":"Anna-von-Borries-Straße 1-7, 30625 Hannover","stadt":"Hannover","Google":3.6,"Klinikum":3.7,"Klinify":4, "image":"https://img.fotocommunity.com/annastift-i-hannover-9d4296bf-246d-4e54-ba00-12cc31f8294e.jpg?width=1000"},
+    
+    {"id":5,
+    "lat": 52.371402188587425, 
+    "long": 9.724198497953754,"Name":"DIAKOVERE Friederikenstift","Adresse":"Humboldtstraße 5, 30169 Hannover","stadt":"Hannover","Google":2.4,"Klinikum":2.5,"Klinify":2, "image":"https://upload.wikimedia.org/wikipedia/commons/c/c6/Friederikenstift_Hannover.jpg"},
+    
+    {"id":6,
+    "lat": 52.38682571580975, 
+    "long": 9.745204559319552,"Name":"DRK-Krankenhaus Clementinenhaus",
+    "Adresse":"Lützerodestraße 1, 30161 Hannover","stadt":"Hannover",
+    "Google":4.0,"Klinikum":3.7,"Klinify":3, 
+    "image":"https://www.clementinenhaus.de/images/1920x500_wo/Clementinenhaus_wo.jpg"},
+    
+    {"id":7,
+    "lat": 52.15126622269896, 
+    "long": 9.97668181143964,"Name":"Helios Klinikum Hildesheim",
+    "Adresse":"Senator-Braun-Allee 33, 31135 Hildesheim","stadt":"Hildesheim",
+    "Google":2.2,"Klinikum":2.8,"Klinify":2, 
+    "image":"https://www.helios-gesundheit.de/fileadmin/_processed_/5/1/csm_HI_Klinikum_IMG_0612_c1d37125d9.jpg"},
+    
+    {"id":8,
+    "lat": 52.23312509749634, 
+    "long": 10.526725426783987,"Name":"Herzogin Elisabeth Hospital","Adresse":"Leipziger Str. 24, 38124 Braunschweig","stadt":"Braunschweig","Google":4.1,"Klinikum":3.9,"Klinify":4, "image":"https://cdn.regionalheute.de/images/2020/1/164/1000/911d87ffacaa43af8af14585e8584631.jpg"},
+    
+    {"id":9,
+    "lat": 52.49647714834678, 
+    "long": 9.861739997958372,"Name":"KRH Klinikum Großburgwedel","Adresse":"Fuhrberger Str. 8, 30938 Burgwedel","stadt":"Burgwedel","Google":2.5,"Klinikum":3.0,"Klinify":2, "image":"https://www.hannover.de/var/storage/images/_aliases/alias_300x225px/media/01-data-neu/bilder/bilder-region-hannover/geb%C3%A4ude-der-region/klinikum-der-region-hannover/krh_klinikum_grossburgwedel/10578457-1-ger-DE/KRH_Klinikum_Grossburgwedel.jpg"},
+    
+    {"id":10,
+    "lat": 52.380081314665496, 
+    "long": 9.983632184460047,"Name":"KRH Klinikum Lehrte","Adresse":"Manskestraße 22, 31275 Lehrte","stadt":"Lehrte","Google":3.0,"Klinikum":2.7,"Klinify":2,"image":"https://lehrte.krh.de/fileadmin/_processed_/5/2/csm_lehrte_787x300_763a970c44.jpg"},
+    
+    
+    {"id":11,
+    "lat": 52.109714173380134, 
+    "long": 9.549903755614709,"Name":"Krankenhaus Lindenbrunn","Adresse":"Am Lindenbrunn 1, 31863 Coppenbrügge","stadt":"Coppenbrügge","Google":1.9,"Klinikum":3.7,"Klinify":2, "image":"https://www.krankenhaus-lindenbrunn.de/_images/1062.jpg"},
+    
+    {"id":12,
+    "lat": 52.25853552226015, 
+    "long": 10.545286842126213,"Name":"Krankenhaus Marienstift gGmbH","Adresse":"Helmstedter Str. 35, 38102 Braunschweig","stadt":"Braunschweig","Google":3.6,"Klinikum":4.0,"Klinify":4, "image":"https://www.neuerkerode.de/fileadmin/_processed_/c/f/csm_DC42536_b9d7705da0.jpg"},
+    
+    {"id":13,
+    "lat": 52.10735204850791, 
+    "long": 9.351927869108607,"Name":"Sana Klinikum Hameln-Pyrmont","Adresse":"Saint-Maur-Platz 1, 31785 Hameln","stadt":"Hameln","Google":2.1,"Klinikum":3.0,"Klinify":3, "image":"https://www.sana.de/media/_processed_/0/5/csm_hameln_04b27514d6.jpg"},
+    
+    {"id":14,
+    "lat": 52.362429414378504, 
+    "long": 9.777393955624104,"Name":"Sophienklinik GmbH","Adresse":"Bischofsholer Damm 160, 30173 Hannover","stadt":"Hannover","Google":3.5,"Klinikum":3.0,"Klinify":4, "image":"https://www.sophienklinik.de/wp-content/uploads/2018/05/sk_header_kontakt_neu.jpg"}]
