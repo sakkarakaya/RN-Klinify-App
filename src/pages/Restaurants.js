@@ -27,7 +27,7 @@ const Restaurants = (props) => {
     return (
         <SafeAreaView>
             <View style={styles.textContainer}>
-                <Text style={styles.textHeader}>{selectedCity.value}</Text>
+                <Text style={styles.textHeader}>{selectedCity.value.toUpperCase()}</Text>
                 <Text style={styles.textResult}>{myClinics.length} result 
                 {myClinics.length==1 ? <Text> </Text> : <Text>s </Text>} 
                  found
@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
     },
     textHeader: {
         
-        fontSize: 18,
+        fontSize: 20,
         fontWeight: 'bold',
         textAlign: 'center'
     },
