@@ -14,7 +14,7 @@ function List() {
     return (
         <Stack.Navigator>
             <Stack.Screen name="Cities" component={Cities} />
-            <Stack.Screen name="Restaurants" component={Restaurants} />
+            <Stack.Screen name="Clinics" component={Restaurants} />
             <Stack.Screen name="Detail" component={Detail} />
         </Stack.Navigator>
     )

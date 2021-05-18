@@ -9,7 +9,7 @@ import Logo from '../assets/images/logo2.png'
 const Cities = (props) => {
 
     const renderItem = ({ item }) => (
-        <TouchableOpacity onPress={() => props.navigation.navigate('Restaurants', {selected: item})}>
+        <TouchableOpacity onPress={() => props.navigation.navigate('Clinics', {selected: item})}>
             <Text style={styles.text}>{item.value}</Text>
         </TouchableOpacity>
       ); 
